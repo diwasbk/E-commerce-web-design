@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color:rgba(61, 13, 109, 0.88);
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.nav-search{
+    margin-left:-60px;
+    display: flex;
+    width: 650px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+.border:hover{
+    border-radius: 7.5px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff36ab;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 0.8rem;
+    color: rgb(233, 230, 230);
+}
+
+.nav-first{
+    font-weight: 700;
+}
+
+.nav-cart{
+    font-weight: 700;
+}
+
+.panel{
+    margin-left: -30px;
+    height: 50px;
+    background-color: #ff36ab;
+    display: flex;
+    color: white;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.panel-options{
+    width: 70%;
+}
+
+.panel-options p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    height: 350px;
+    background-image: url(./images/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: whitesmoke;
+    color: black;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-msg a{
+    text-decoration: none;
+    color: teal;
+}
