@@ -150,3 +150,35 @@ span{
     margin-top: 1rem;
     margin-bottom: 10px;
 }
+
+footer {
+    color: whitesmoke;
+    background: linear-gradient(90deg, #e43a9d, rgba(61, 13, 109, 0.9), teal);
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.copyright {
+    padding: 10px 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.developer {
+    font-size: 0.9rem;
+    padding: 1px 0;
+    font-style: italic;
+}
+
+footer a {
+    color: rgba(225, 233, 210, 0.9);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #e79a16;
+    text-decoration: underline;
+}
